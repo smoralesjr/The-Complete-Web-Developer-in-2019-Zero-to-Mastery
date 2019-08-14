@@ -1,3 +1,5 @@
+#stupid macOS stuff
+.DS_Store
 # Logs
 logs
 *.log
