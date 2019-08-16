@@ -1,7 +1,22 @@
-h2 {
-    color:red;
+body {
+    background-image: url("yoav.jpg");
+    background-size: cover;
+}
+
+h2, p {
+    color: #AA7639;
+    background-color: #804F15;
+    text-align: center;
+    border: 5px solid #552E00;
+    cursor: pointer;
 }
 
 p {
     color: pink;
+    background-color: #804F15;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
 }
