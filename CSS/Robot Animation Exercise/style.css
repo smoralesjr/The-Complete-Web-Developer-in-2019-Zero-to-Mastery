@@ -35,7 +35,8 @@ h1 {
 .upper_body { 
 	width: 300px; 
 	height: 150px;
-	display: flex; 
+	display: flex;
+	margin: 0 auto;
 } 
 
 .left_arm, .right_arm { 
@@ -73,7 +74,8 @@ h1 {
 } 
 
 .left_leg { 
-	margin-left: 45px; 
+	margin-left: 45px;
+	margin-bottom: -120px;
 } 
 
 .left_leg:hover {
@@ -84,8 +86,9 @@ h1 {
     transform: rotate(20deg);
 }
 
-.right_leg { 
-	margin-left: 30px; 
+.right_leg {
+	
+	margin-left: 120px;
 }
 
 .left_eye, .right_eye { 
@@ -106,7 +109,8 @@ h1 {
 .right_eye { 
 	position: relative; 
 	top: 100px; 
-	left: 120px; 
+	left: 120px;
+	margin-top: -20px;
 }
 
 
