@@ -19,9 +19,12 @@ body {
 
 h1, button {
   text-transform: uppercase;
-}
+  }
 
 button {
   background-color: #f57242 !important;
-  /*border-radius: 25% !important;*/
+  }
+  
+#header {
+  margin-top: 350px;
 }
