@@ -16,3 +16,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
+
+h1, button {
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #f57242 !important;
+  /*border-radius: 25% !important;*/
+}
