@@ -1,3 +1,14 @@
+.container {
+  display: grid;
+
+  grid-template-areas:
+    "header header header header"
+    /* "cover"
+    "grid grid grid grid"
+    "footer" */
+  }
+
+
 .zone {
     padding:30px 50px;
     margin:40px 60px;
