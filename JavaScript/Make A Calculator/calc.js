@@ -10,7 +10,7 @@
 
 var firstNumber, secondNumber, sum;
 
-firstNumber = prompt("Enter your first number: ");
-secondNumber = prompt("Enter your second number: ");
+firstNumber = parseInt(prompt("Enter your first number: "));
+secondNumber = parseInt(prompt("Enter your second number: "));
 sum = firstNumber + secondNumber;
 alert(firstNumber + " + " + secondNumber + " = " + sum);
