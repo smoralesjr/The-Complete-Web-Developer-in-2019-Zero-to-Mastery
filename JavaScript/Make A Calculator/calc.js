@@ -17,11 +17,11 @@ choice = choice.toLowerCase();
 
 if (choice === "add") {
   answer = firstNumber + secondNumber;
-} else if (choice == "subtract") {
+} else if (choice === "subtract") {
   answer = firstNumber - secondNumber;
-} else if (choice == "multiply") {
+} else if (choice === "multiply") {
   answer = firstNumber * secondNumber;
-} else if (choice == "divide"){
+} else if (choice === "divide"){
   answer = firstNumber / secondNumber;
 } else {
   alert("Invalid choice!");
