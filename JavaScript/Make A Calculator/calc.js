@@ -8,9 +8,23 @@
 
 // BONUS: Make a program that can subtract, multiply, and also divide!
 
-var firstNumber, secondNumber, sum;
+var firstNumber, secondNumber, answer, choice;
 
 firstNumber = Number(prompt("Enter your first number: "));
 secondNumber = Number(prompt("Enter your second number: "));
-sum = firstNumber + secondNumber;
-alert(firstNumber + " + " + secondNumber + " = " + sum);
+choice = prompt("Would you like to add, subtract, multiply, or divide? ");
+choice = choice.toLowerCase();
+
+if (choice === "add") {
+  answer = firstNumber + secondNumber;
+} else if (choice == "subtract") {
+  answer = firstNumber - secondNumber;
+} else if (choice == "multiply") {
+  answer = firstNumber * secondNumber;
+} else if (choice == "divide"){
+  answer = firstNumber / secondNumber;
+} else {
+  alert("Invalid choice!");
+}
+
+alert("The answer is " + answer);
