@@ -27,4 +27,4 @@ var newsfeed = [
         username: "ruthiebriar",
         timeline: "food!"
     }
-]
+];
