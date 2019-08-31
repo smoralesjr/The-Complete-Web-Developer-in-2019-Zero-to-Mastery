@@ -18,11 +18,11 @@ var newsfeed = [
     {
         username: "randiberry",
         timeline: "theater!"
-    }
+    },
     {
         username: "elicole",
         timeline: "dancing!"
-    }
+    },
     {
         username: "ruthiebriar",
         timeline: "food!"
