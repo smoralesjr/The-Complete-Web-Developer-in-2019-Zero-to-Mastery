@@ -47,5 +47,7 @@ function isUserValid (username, password){
 function signIn(username, password) {
     if (isUserValid(username,password)) {
         console.log(newsfeed);
+    } else {
+        alert("Sorry, wrong username and password.");
     }
 }
