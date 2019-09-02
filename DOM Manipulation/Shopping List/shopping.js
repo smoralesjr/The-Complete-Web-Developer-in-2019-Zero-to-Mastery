@@ -31,5 +31,9 @@ input.addEventListener("keypress", function(event) {
 for (let count = 0; count < lis.length; count++) {
    lis[count].addEventListener("click", function() {
       this.classList.toggle("done");
+      var delBtn = document.createElement("button");
+      delBtn.id = "del" + count;
+      delBtn.innerHTML = "Delete";
+      this.appendChild(delBtn);
     });
   }
