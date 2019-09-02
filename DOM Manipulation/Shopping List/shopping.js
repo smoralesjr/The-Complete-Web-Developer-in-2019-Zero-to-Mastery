@@ -35,5 +35,9 @@ for (let count = 0; count < lis.length; count++) {
       delBtn.id = "del" + count;
       delBtn.innerHTML = "Delete";
       this.appendChild(delBtn);
+      delBtn.addEventListener("click", function(event){
+          console.log("DELETE!!!");
+          delBtn.parentElement.remove();
+      })
     });
   }
