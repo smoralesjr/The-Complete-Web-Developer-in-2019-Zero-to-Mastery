@@ -2,6 +2,7 @@ var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 var userinput = document.getElementById("userinput");
+var lis = document.querySelectorAll("li");
 
 function checkLength(){
     return input.value.length;
@@ -26,3 +27,9 @@ input.addEventListener("keypress", function(event) {
     } 
     
 })
+
+for (let count = 0; count < lis.length; count++) {
+   lis[count].addEventListener("click", function() {
+      this.classList.toggle("done");
+    });
+  }
